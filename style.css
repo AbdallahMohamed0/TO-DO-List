@@ -48,6 +48,14 @@ h2 {
 .board-box {
   min-width: 20rem;
   max-width: 30vw;
+
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.25);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 10px solid rgba(0, 149, 119, 0.1);
 }
 
 .list {
